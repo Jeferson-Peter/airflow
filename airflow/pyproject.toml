@@ -1,0 +1,12 @@
+[project]
+name = "airflow-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow==3.0.1",
+    "polars>=1.30.0",
+    "yf>=0.0.4",
+    "yfinance>=0.2.61",
+]
